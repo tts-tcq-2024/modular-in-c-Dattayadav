@@ -49,7 +49,7 @@ void printColorCodeReferenceManual(int numberOfMajorColors, int numberOfMinorCol
 
     for (majorColorIterator = 0; majorColorIterator < numberOfMajorColors; majorColorIterator++) {
         for (minorColorIterator = 0; minorColorIterator < numberOfMinorColors; minorColorIterator++) {
-            printf("|   %8d | %12s | %12s |\n", pairNumber++, MajorColorNames[majorColorIterator], MinorColorNames[minorColorIterator]);
+            printf("|   %d | %s | %s |\n", pairNumber++, MajorColorNames[majorColorIterator], MinorColorNames[minorColorIterator]);
         }
         printf("----------------------------------------\n");
     }
